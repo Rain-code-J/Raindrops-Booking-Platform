@@ -1,0 +1,39 @@
+server:
+  # 服务端口号
+  port: 8201
+spring:
+  application:
+    # 服务名称
+    name: service-hosp
+  # rabbitmq地址
+  rabbitmq:
+    host: 192.168.6.100
+    port: 5672
+    username: admin
+    password: admin
+  cloud:
+    nacos:
+      discovery:
+        server-addr: localhost:8848
+  # MySQL数据库连接
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3307/yygh_hosp?characterEncoding=utf8&serverTimezone=Asia/Shanghai&allowPublicKeyRetrieval=true
+    username: root
+    password: lcj6445254
+  # MongoDB连接信息
+  data:
+    mongodb:
+      uri: mongodb://192.168.6.100:27017/test
+  # 返回json的全局时间格式
+  jackson:
+    date-format: yyyy-MM-dd HH:mm:ss
+    time-zone: GMT+8
+  profiles:
+    active: dev
+# MyBatis日志
+mybatis-plus:
+  configuration:
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+# 日志配置
+

@@ -1,0 +1,15 @@
+server:
+  # 服务端口
+  port: 8209
+
+spring:
+  application:
+    name: service-sta
+  profiles:
+    # 环境设置：dev、test、prod
+    active: dev
+  cloud:
+    nacos:
+      discovery:
+        # nacos服务地址
+        server-addr: localhost:8848

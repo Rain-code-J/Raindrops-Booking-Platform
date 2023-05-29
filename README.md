@@ -8,15 +8,6 @@
 
 SpringBoot+SpringCloud+MyBatis-Plus+Redis+RabbitMQ+HTTPClient+Swagger2+Nginx+Lombok+MySQL+MongoDB
 
-### 业务流程
-
-![image](https://github.com/Rain-code-J/Raindrops-Booking-Platform/assets/91371623/4b55248e-6699-4693-8259-2b9e3d5e74c6)
-
-
-### 系统架构
-
-![image](https://github.com/Rain-code-J/Raindrops-Booking-Platform/assets/91371623/f28db67d-9220-4ae6-bab1-a36aa9ce04a4)
-
 
 ## 快速开始
 
@@ -56,3 +47,7 @@ SpringBoot+SpringCloud+MyBatis-Plus+Redis+RabbitMQ+HTTPClient+Swagger2+Nginx+Lom
   - npm run dev
   - 请看`运行`
   - 访问 http://localhost:9528/
+
+
+
+注：医院接口模拟系统在后端中，模块名是 `hospital-manage`
